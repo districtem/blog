@@ -1,0 +1,8 @@
+My Blog
+=======
+
+This is a simple blog I made.  Ultimately I want to include an API to Github as well under the "Projects page."  For now it's great for tinkering.
+
+The DB manager is MongoDB and I'm using Mongoid to create the DB.  Make sure you have MongoDB set up on your machine before cloning! 
+
+There are bugs throughout and code I've installed but not configured, hints it will be a good project to update within Github.
