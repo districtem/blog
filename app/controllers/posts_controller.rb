@@ -2,7 +2,8 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
-    @post = Post.new 
+  #  @post = Post.new
+    @post = Post.asc("created_at").last 
   end
 
   def index
