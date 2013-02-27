@@ -24,7 +24,7 @@
 <% end %>
 
 <h2>New Comment</h2>
-<% form_for [@post, Comment.new] do |f| %>
+<%= form_for [@post, Comment.new] do |f| %>
   <p><%= f.label :name %> <%= f.text_field :name %></p>
   <p><%= f.label :email %> <%= f.text_field :email %></p>
   <p><%= f.label :date %> <%= f.date_select :date %></p>
